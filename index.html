@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Insurance Software - Policy Administration | Solartis</title>
+</head>
+
+<body>
+    <header>
+        <div class="top_bar">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <img class="navbar-brand" src="https://www.solartis.com/hs-fs/hubfs/logo_active.png?width=240&name=logo_active.png">
+                    <button class="navbar-toggler text-white bg-dark" role="button" data-bs-toggle="collapse"
+                        data-bs-target="#menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav">
+                            <li class="list-item dropdown"><a data-bs-toggle="dropdown" class="nav-link mx-3" href="">Our
+                                    Microservice Technology</a>
+                                <div class="dropdown-menu" id="down">
+                                    <ul id="tech">
+                                        <div class="row d-flex">
+                                            <div class="col-lg-6" id="column_1">
+                                                <ul>
+                                                    <p>THE SOLARTIS INSURE PLATFORM</p>
+                                                    <h5>The solartis Platform</h5>
+                                                    <sup>Introduction & Delivery Option</sup>
+                                                    <hr>
+                                                    <h5>Solartis Insurance Microservices</h5>
+                                                    <sup>Solartis Microservice Catalog</sup>
+                                                    <hr>
+                                                    <h5>Solartis Microservice Catalog</h5>
+                                                    <sup>Our Catalog of Policy Lifecycle Microservices</sup>
+                                                    <hr>
+                                                    <h5>Solartis Tech Stack</h5>
+                                                    <sup>State of the Art Technology</sup>
+                                                    <hr>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-6" id="column_2">
+                                                <ul>
+                                                    <p>SUPPORTING CAPABILITIES AND TOOLS</p>
+
+                                                    <h5>Solartis Product Management Tool</h5>
+                                                    <sup>Toolkit to Configure and Maintain Insurance Products</sup>
+                                                    <hr>
+                                                    <h5>Solartis Report</h5>
+                                                    <sup>Reporting & Analysis</sup>
+                                                    <hr>
+                                                    <h5>Solartis ISO Commercial Lines Rating</h5>
+                                                    <sup>Electronically Consumed ISO Content</sup>
+                                                    <hr>
+                                                    <h5>Solartis Platform Monitoring</h5>
+                                                    <sup>24x7 Monitoring</sup>
+                                                    <hr>
+                                                    <h5>Solartis Ecosystem</h5>
+                                                    <sup>Ecosystem / Integration Partners</sup>
+                                                    <hr>
+                                                    <h5>Solartis Explore</h5>
+                                                    <sup>Predictive (“What-If”) Analysis & “Book of Business Level”
+                                                        Changes</sup>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list-item dropdown"><a data-bs-toggle="dropdown" role="button" class="nav-link mx-3"
+                                    href="">Our BPO Services</a>
+                                <ul class="dropdown-menu" id="process">
+                                    <li><a class="nav-link" href="">Business Process Outsourcing</a></li>
+                                    <li><a class="nav-link" href="">Problems We Solve</a></li>
+                                    <li><a class="nav-link" href="">Supported Processes</a></li>
+                                    <li><a class="nav-link" href="">Workflow Management and Reporting</a></li>
+                                    <li><a class="nav-link" href=""> Our Use of RPA Technology</a></li>
+                                </ul>
+                            </li>
+                            <li class="list-item dropdown"><a data-bs-toggle="dropdown" role="button" class="nav-link mx-3"
+                                    href="">Resources</a>
+                                <ul class="dropdown-menu" id="news">
+
+                                    <li><a class="nav-link" href="">Blog and News</a></li>
+                                    <li><a class="nav-link" href="">Videos</a></li>
+                                    <li><a class="nav-link" href="">eBooks</a></li>
+                                    <li><a class="nav-link" href="">Guides</a></li>
+                                    <li><a class="nav-link" href="">Fact Sheets</a></li>
+                                    <li><a class="nav-link" href="">Customer Success Stories</a></li>
+                                    <li><a class="nav-link" href=""> Business Process Outsourcing</a></li>
+                                    <li><a class="nav-link" href=""> Solartis Insure FAQs</a></li>
+                                    <li><a class="nav-link" href=""> Solartis Administer (BPO) FAQs</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="list-item dropdown"><a data-bs-toggle="dropdown" role="button" class="nav-link mx-3"
+                                    href="">About Us</a>
+                                <ul class="dropdown-menu" id="career">
+                                    <li><a class="nav-link" href=""> Leadership</a></li>
+                                    <li><a class="nav-link" href="">Careers</a></li>
+                                    <li><a class="nav-link" href=""> Contact Information </a></li>
+
+                                </ul>
+                            </li>
+                            <a id="id" class="btn btn-danger" href="">Contact Us</a>
+                            <i id="font" class="fa-solid fa-magnifying-glass mt-3 mx-5"></i>
+                        </ul>
+                        
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container-fluid">
+                <div class="section_1">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <h1>Adaptive solutions for policy administration challenges.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about">
+                        <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 m-auto">
+                            <h2 class="text-center">Solartis offers both groundbreaking technology and on-demand
+                                administrative services, or a combination of both, to solve your policy administration
+                                challenges.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="images text-center">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
+                            <p id="part">We are partnered with a variety of fantastic customers:</p>
+                            <div class="company">
+                                <img src="https://www.solartis.com/hubfs/CoverWallet.webp" alt="logo" class="mx-3"
+                                    width="10%">
+                                <img src="https://www.solartis.com/hubfs/Liberty%20Mutual.webp" class="mx-3" alt="logo"
+                                    width="10%">
+                                <img src="https://www.solartis.com/hubfs/AON.webp" alt="logo" class="mx-3" width="10%">
+                                <img src="https://www.solartis.com/hubfs/BriteCo.webp" alt="logo" class="mx-3"
+                                    width="10%">
+                                <img src="https://www.solartis.com/hubfs/Seneca.webp" alt="logo" class="mx-3"
+                                    width="10%">
+                                <img src="https://www.solartis.com/hubfs/Embroker.webp" alt="logo" class="mx-3"
+                                    width="10%"><br>
+                                <img src="https://www.solartis.com/hubfs/SIU.webp" alt="logo" class="mx-3" width="10%">
+                                <img src="https://www.solartis.com/hubfs/Starr.webp" alt="logo" class="mx-3"
+                                    width="10%">
+                                <img src="https://www.solartis.com/hubfs/Assurant.webp" alt="logo" class="mx-3"
+                                    width="10%">
+                                <img src="https://www.solartis.com/hubfs/Chic.webp" alt="logo" class="mx-3" width="10%">
+                                <img src="https://www.solartis.com/hubfs/nitic-logo-t.webp" alt="logo" class="mx-3"
+                                    width="10%">
+                                <img src="https://www.solartis.com/hubfs/generali.webp" alt="logo" class="mx-3"
+                                    width="10%"><br>
+                                <img src="https://www.solartis.com/hubfs/boston%20catholic.webp" alt="logo" class="mx-3"
+                                    width="10%">
+                                <img src="https://www.solartis.com/hubfs/Nationwide.webp" alt="logo" class="mx-3"
+                                    width="10%">
+                                <img src="https://www.solartis.com/hubfs/RSG.webp" alt="logo" class="mx-3" width="10%">
+                                <img src="https://www.solartis.com/hubfs/berkley.webp" alt="logo" class="mx-3"
+                                    width="10%">
+                                <img src="https://www.solartis.com/hubfs/n2g.webp" alt="logo" class="mx-3" width="10%">
+                                <img src="https://www.solartis.com/hubfs/wbpi.webp" alt="logo" class="mx-3"
+                                    width="10%"><br>
+                                <img src="https://www.solartis.com/hubfs/joyn.webp" alt="logo" class="mx-3" width="10%">
+                                <img src="https://www.solartis.com/hubfs/Fides.webp" alt="logo" class="mx-3"
+                                    width="10%">
+                                <img src="https://www.solartis.com/hubfs/SiriusPoint%20logo%20(1).jpg" alt="logo"
+                                    class="mx-3" width="10%">
+                                <img src="https://www.solartis.com/hubfs/MCSIG-Logo%20(1).png" alt="logo" class="mx-3"
+                                    width="10%">
+                                <img src="https://www.solartis.com/hubfs/Ratio%20Risk%20logo%205-2022%20(1).png"
+                                    alt="logo" class="mx-3" width="10%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="services">
+            <div class="container">
+                <div class="services">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+                            <h2 class="mt-4"><span style="color: orange; font-size: 40px; font-weight: lighter;">Which
+                                    services are <br> right for you?</span></h2>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="card_1">
+                                <div class="card">
+                                    <div class="pic d-flex">
+                                        <h3 class="card-title mt-5 mx-3" style="color: rgb(6, 6, 62);">Solartis Insure
+                                        </h3>
+                                        <img style="margin-left:90px;"
+                                            src="https://www.solartis.com/hubfs/connection-box-chart%202.png"
+                                            width="20%">
+                                    </div>
+                                    <hr class="w-75 mx-3" style="color: rgb(1, 1, 45); height: 2px;">
+                                    <p class="card-text mt-3 mx-3">An API-centric policy administration <br> platform
+                                        built on a microservices <br> architecture.</p>
+                                    <div id="div_1" class="m-auto mb-2" style="color: orangered;"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                        </svg></div>
+                                    <div class="hide_1">
+                                        <p class="mx-3">Solartis offers a variety of insurance microservices, available
+                                            separately or
+                                            bundled, for a completely custom, scalable, API-centric insurance policy
+                                            administration solution.</p>
+                                        <hr>
+                                        <a class="mx-2" style="color: orangered;">Explore Our Platform<svg
+                                                xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right mx-2" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                            </svg></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="card_2">
+                                <div class="card">
+                                    <div class="pics d-flex">
+                                        <h3 class="card-title mt-5 mx-3" style="color: grey;">Solartis Administer</h3>
+                                        <img src="https://www.solartis.com/hubfs/single-card-image.png">
+                                    </div>
+                                    <hr class="w-75 mx-3" style="color: rgb(1, 1, 45); height: 2px;">
+                                    <p class="card-text mt-3 mx-3">A new breed of insurance BPO<br> combining top talent
+                                        and state-of-<br>the-art technology.</p>
+                                    <div id="div_2" class="m-auto mb-2" style="color: orangered;">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                        </svg>
+                                    </div>
+                                    <div class="hide_2">
+                                        <p class="mx-3">Solartis Administer, our BPO solution, offers immediate benefits
+                                            including
+                                            lower costs, faster turnaround time, and reduced administrative backlog.</p>
+                                        <hr>
+                                        <a class="mx-2" style="color: orangered;">Explore Our Platform<svg
+                                                xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right mx-2" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                            </svg></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="choice">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h4 style="font-size: 25px; font-weight: lighter;" class="text-center">We grant <span
+                                style="font-size: 30px; font-weight: bold; color: rgb(2, 2, 51);">Speed,
+                                Innovation,</span> & <span
+                                style="font-size: 30px;  font-weight: bold; color: rgb(2, 2, 51);">Choice</span> to your
+                            business.</h4>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="card_3">
+                                <div class="card">
+                                    <img src="https://www.solartis.com/hubfs/speedometer.png" class="card-image-top"
+                                        style="margin-left:17vh; margin-top: 5px;" width="30%" height="25%">
+                                    <h5 class="text-center" style="color: grey; font-size: 20px;">Get products to market
+                                        <br>faster.
+                                    </h5>
+                                    <p class="card-text text-center mx-3" style="margin-top: 35px;">Replace cumbersome
+                                        legacy technology with flexible
+                                        microservices.
+                                        Build custom solutions to simplify the process of purchasing and managing
+                                        insurance.
+                                    </p>
+                                    <a class="card-link">Explore Our
+                                        Platform <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="card_4">
+                                <div class="card">
+                                    <img src="https://www.solartis.com/hubfs/icon%202.png" class="card-image-top"
+                                        style="margin-left:17vh; margin-top: 10px;" width="25%">
+                                    <h5 class="text-center" style="color: grey; font-size: 20px;">Channel resources
+                                        to<br> innovation.</h5>
+                                    <p class="card-text text-center mx-3" style="margin-top: 40px;">Stop creating
+                                        workarounds for legacy
+                                        technology.
+                                        Adopt
+                                        agile microservices and dedicate time and effort to innovation.</p>
+                                    <a class="card-link">Enhance Policy
+                                        Administration <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="card_5">
+                                <div class="card">
+                                    <img src="https://www.solartis.com/hubfs/icon%203.png" class="card-image-top"
+                                        style="margin-left:17vh; margin-top: 10px;" width="25%">
+                                    <h5 class="text-center" style="color: grey; font-size: 20px;">Choose only
+                                        the<br>microservices you need.</h5>
+                                    <p class="card-text text-center mx-3" style="margin-top: 40px; ">Reduce project risk
+                                        and expedite
+                                        development
+                                        efforts.
+                                        Select just what you need for your consumer portal, agency system, or full-blown
+                                        carrier underwriting system.</p>
+                                    <a class="card-link">View Our Service
+                                        Catelogue <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="height: 3px; margin-top: 10vh;">
+                </div>
+            </div>
+        </section>
+
+        <section id="startup">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h1 class="text-center mt-5 mb-5" style="color:rgb(14, 14, 65); ;">What our Customers Have to
+                            Say
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="glide">
+                <div class="container mb-5">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <img src="https://www.solartis.com/hubfs/JOYN_test_2.1.png">
+                        </div>
+                        <div class="glides col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <q class="text-white">As a startup, we're uniquely positioned to select the best available
+                                solutions to meet
+                                the needs of a modern organization.</q>
+                            <p class="text-white mt-5" style="font-size: 25px;">Solartis fits that bill by helping us to
+                                streamline the underwriting
+                                process, leverage
+                                digital ISO rating content, and effectively support our underwriting decisions and
+                                data
+                                science insights to provide a truly differentiated service to our distribution
+                                partners.
+                            </p>
+                            <h4 class="mt-5" style="color: rgb(210, 141, 13);">Seraina Macia, co-founder and CEO of Joyn
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="case_study">
+            <div class="container-fluid">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                            <h5 class="mt-5 text-white">Case Study</h5>
+                            <h2 class="mt-4 text-white" style=" font-weight:lighter; font-size: 40px;">Learn how CHIC
+                                combined people and <br> technology to accelerate innovative policy<br>
+                                administration.</h2>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                        <img src="https://www.solartis.com/hubfs/insurance.png">
+                                        <p class="mt-3 text-white">A startup commercial auto insurer needed to issue new
+                                            business policies while
+                                            developing their long-term extendable policy administration system.</p>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                        <img src="https://www.solartis.com/hubfs/distribution%202.png">
+                                        <p class="mt-3 text-white">CHIC selected Solartis to provide BPO services to
+                                            support current business
+                                            while CHIC and Solartis built out their innovative microservices-based
+                                            solution.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="mb-4 mt-3"
+                                style="border-color: orangered; height: 60px; width:60%; background-color: orangered; color: white;">Download
+                                the Case Study</button>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <img src="https://www.solartis.com/hubfs/Ironpaper/image%201.png" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="help">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h3 class="text-center" style="margin-top: 10vh; font-size:40px; font-weight: lighter;">Ready to
+                            see how our Microservices can Help?</h3>
+                        <button id="buttons">Connect
+                            With an Expert from our Team</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3" id="lines">
+                        <img src="https://www.solartis.com/hubfs/Ironpaper/Solartis-logo-white.svg"><br>
+                        <ul class="mt-5">
+                            <i style="color: orangered;" class="fa-brands fa-linkedin-in mx-3"></i>
+                            <i style="color: orangered;" class="fa-brands fa-twitter mx-3"></i>
+                            <i style="color: orangered;" class="fa-brands fa-facebook mx-3"></i>
+                        </ul>
+                        <ul class="mt-5">
+                            <h2><a class="text-white mt-3" href="">Get Started</a></h2>
+                            <li><a href="">Access Sandbox</a></li>
+                            <li><a href="">Schedule a BPO Consultation</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 mt-3">
+                        <ul>
+                            <h2><a class="text-white" href="">Our Platform</a></h2>
+                            <li><a href="">Insurance Microservices</a></li>
+                            <li><a href="">Our Microservices</a></li>
+                            <li><a href="">Catalog</a></li>
+                            <li><a href="">Cloud Infrastructure</a></li>
+                            <li><a href="">Self-Service Toolkit</a></li>
+                            <li><a href="">Reporting & Data Analysis</a></li>
+                            <li><a href="">Supported Insurance</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Third-Party Integrations</a></li>
+                            <li><a href="">Our Tech Stack</a></li>
+                            <li><a href="">Business Process Outsourcing</a></li>
+                        </ul>
+                        <ul>
+                            <h2><a class="text-white mt-3" href="">Our Customers</a></h2>
+                            <li><a href="">Insuretech Startups</a></li>
+                            <li><a href="">Insurance Companies</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 mt-3">
+                        <ul>
+                            <h2><a class="text-white" href="">Resources</a></h2>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Case Studies</a></li>
+                            <li><a href="">Solartis Insure FAQs</a></li>
+                            <li><a href="">Solartis Administer (BPO) FAQs</a></li>
+                        </ul>
+                        <ul>
+                            <h2><a class="text-white" href="">About Us</a></h2>
+                            <li><a href="">Why Solartis</a></li>
+                            <li><a href="">Leadership</a></li>
+                            <li><a href="">News & Events</a></li>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Contact Information</a></li>
+                            <li><a href="">Security and Compliance</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 mt-3">
+                        <ul>
+                            <h2><a class="text-white" href="">Quick Links</a></h2>
+                            <li><a href="">Supported BPO Processes</a></li>
+                            <li><a href="">Insurtech</a></li>
+                            <li><a href="">Insurance Technology</a></li>
+                            <li><a href="">ITC - Insuretech Connect</a></li>
+                            <li><a href="">Insurance Policy Administration Systems</a></li>
+                            <li><a href="">P&C Insurance Industry Trends</a></li>
+                            <li><a href="">Insurance Microservices</a></li>
+                            <li><a href="">Insurance BPO</a></li>
+                            <li><a href="">Ratings Microservice</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 d-flex">
+                        <small>© 2022 Solartis. All Rights Reserved.</small>
+                        <h5 class="mx-3">Terms</h5>
+                        <h5 class="mx-3">Privacy</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

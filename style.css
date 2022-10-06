@@ -1,0 +1,708 @@
+header .navbar-brand {
+    height: 5vh;
+    margin-left: 20vh;
+}
+
+header .collapse {
+    margin-left: 5vh;
+
+}
+
+header .collapse #down #tech {
+    width: 100vh;
+}
+
+header .collapse .nav-link {
+    color: black;
+   
+}
+
+header #id {
+    bottom: unset;
+}
+header #down {
+    margin-top: 3vh;
+    border: none;
+}
+
+header #process{
+    margin-top: 2vh;
+    border: none;
+    width: 40vh;
+}
+header #news{
+    margin-top: 3vh;
+    border: none;
+    width: 40vh;
+
+}
+header #career{
+    margin-top: 3vh;
+    border: none;
+    width: 40vh;
+}
+header .collapse .nav-link:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+header .collapse #column_1 h5:hover {
+    color: orangered;
+}
+
+header .collapse #column_2 h5:hover {
+    color: orangered;
+}
+
+header .collapse #column_1 p:hover {
+    color: orangered;
+}
+
+header .collapse #column_2 p:hover {
+    color: orangered;
+}
+
+#home {
+    background-image: url("https://www.solartis.com/hubfs/hero%20image%20%281%29-1.png#keepProtocol");
+    height: 60vh;
+}
+
+#home .section_1 .row .col-lg-6 {
+    margin-top: 15vh;
+    margin-left: 25vh;
+    color: white;
+}
+
+#about .about {
+    margin-top: 10vh;
+    color: gray;
+}
+
+#about .images {
+    margin-top: 10vh;
+}
+
+#about .company {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+#services {
+    background-color: rgb(95, 95, 111);
+}
+
+#services .card_1 {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+}
+
+
+#services .card_1 .hide_1 {
+    display: none;
+}
+
+#services .card_1 #div_1:hover+.hide_1 {
+    display: block;
+    color: black;
+}
+
+#services .card_2 {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#services .card_2 .hide_2 {
+    display: none;
+}
+
+#services .card_2 #div_2:hover+.hide_2 {
+    display: block;
+    color: black;
+}
+
+#services .card-text {
+    font-size: 20px;
+}
+
+#choice .col-lg-12 {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    font-size: 25px;
+}
+
+#choice .card {
+    height: 55vh;
+    width: 50vh;
+}
+
+
+#choice .card_3 .card .card-text {
+    font-size: 15px;
+}
+
+#choice .card_3 .card .card-link {
+    color: orangered;
+    text-decoration: none;
+    margin-top: 7vh;
+    font-size: 20px;
+    margin-left: 2vh;
+}
+
+#choice .card_3 .card .card-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#choice .card_4 .card .card-text {
+    font-size: 15px;
+}
+
+#choice .card_4 .card .card-link {
+    color: orangered;
+    text-decoration: none;
+    margin-top: 10vh;
+    font-size: 20px;
+    margin-left: 2vh;
+}
+
+#choice .card_4 .card .card-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#choice .card_5 .card .card-text {
+    font-size: 15px;
+}
+
+#choice .card_5 .card .card-link {
+    color: orangered;
+    text-decoration: none;
+    margin-top: 7vh;
+    font-size: 20px;
+    margin-left: 2vh;
+}
+
+#choice .card_5 .card .card-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#startup .glide .container {
+    background-color: rgb(1, 1, 42);
+    border-radius: 10px;
+}
+
+#startup .glide .container .row .glides {
+    margin-top: 10vh;
+}
+
+#case_study .container-fluid {
+    margin-top: 10vh;
+    background-color: rgb(71, 141, 141);
+}
+
+#help #buttons {
+    color: white;
+    width: 30%;
+    height: 60px;
+    margin-top: 40px;
+    border-color: orangered;
+    background-color: orangered;
+    margin-left: 55vh;
+}
+
+footer .container-fluid {
+    background-color: rgb(16, 16, 55);
+}
+
+footer #footer {
+    background-color: rgb(0, 0, 31);
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer .vr {
+    height: 50vh;
+    margin-top: 2vh;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    header .navbar-brand {
+        height: 5vh;
+        margin-left: 0%;
+    }
+
+    #font {
+        display: none;
+    }
+
+    header .collapse {
+        margin-left: 0vh;
+
+    }
+
+    header .collapse{
+        background-color: rgb(1, 1, 73);
+        color: white;
+
+
+    }
+
+    #home {
+        background-image: url("https://www.solartis.com/hubfs/hero%20image%20%281%29-1.png#keepProtocol");
+        height: 60vh;
+        width: 100%;
+    }
+
+    #home .section_1 .row .col-lg-6 {
+        margin-left: 0%;
+        color: white;
+        font-weight: lighter;
+    }
+
+    #about .about {
+        margin-top: 10vh;
+        color: gray;
+    }
+
+    #about .images {
+        margin-top: 10vh;
+
+    }
+
+    #about .images p {
+        width: 60%;
+        margin-left: 10vh;
+    }
+
+    #about .company {
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
+
+    #services {
+        background-color: rgb(95, 95, 111);
+    }
+
+    #services .services .card{
+        height: 50vh;
+    }
+    #services .card_1 .card #built {
+        margin-left: 90vh;
+
+    }
+    #services .card_1 {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+
+    }
+
+
+    #services .card_1 .hide_1 {
+        display: block;
+    }
+
+    #services .card_1 #div_1 {
+        display: none;
+
+    }
+
+    #services .card_2 {
+        margin-bottom: 5vh;
+
+    }
+
+    #services .card_2 .hide_2 {
+        display: block;
+    }
+
+    #services .card_2 #div_2 {
+        display: none;
+    }
+
+    #services .card-text {
+        font-size: 15px;
+    }
+
+    #choice .col-lg-12 {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        font-size: 25px;
+    }
+
+    #choice .card {
+        height: 60vh;
+        width: 50vh;
+        margin-top: 5vh;
+        margin-left: 3vh;
+    }
+    #choice .card_3 .card img{
+        margin-top: 2vh;
+        margin-left: 10%;
+    }
+
+    #choice .card_3 .card .card-text {
+        font-size: 15px;
+    }
+
+    #choice .card_3 .card .card-link {
+        color: orangered;
+        text-decoration: none;
+        margin-top: 7vh;
+        font-size: 20px;
+        margin-left: 2vh;
+    }
+
+    #choice .card_3 .card .card-link:hover {
+        text-decoration: underline;
+        cursor: pointer;
+
+    }
+    #choice .card_4 .card img{
+        margin-top: 2vh;
+        margin-left: 10%;
+    }
+    #choice .card_4 .card .card-text {
+        font-size: 15px;
+    }
+
+    #choice .card_4 .card .card-link {
+        color: orangered;
+        text-decoration: none;
+        margin-top: 10vh;
+        font-size: 20px;
+        margin-left: 2vh;
+    }
+
+    #choice .card_4 .card .card-link:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    #choice .card_5 .card img{
+        margin-top: 3vh;
+        margin-left: 10%;
+    }
+    #choice .card_5 .card .card-text {
+        font-size: 15px;
+    }
+
+    #choice .card_5 .card .card-link {
+        color: orangered;
+        text-decoration: none;
+        margin-top: 7vh;
+        font-size: 20px;
+        margin-left: 2vh;
+    }
+
+    #choice .card_5 .card .card-link:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    #startup .glide .container {
+        background-color: rgb(1, 1, 42);
+        border-radius: 10px;
+        width: 90%;
+    }
+
+    #startup .glide .container .col-lg-6 img {
+        height: 50vh;
+        margin-left: 3vh;
+    }
+
+    #startup .glide .container .row .glides {
+        margin-top: 5vh;
+    }
+
+    #case_study .container-fluid {
+        margin-top: 10vh;
+        background-color: rgb(71, 141, 141);
+    }
+
+    #help #buttons {
+        color: white;
+        width: 60%;
+        height: 60px;
+        margin-top: 40px;
+        border-color: orangered;
+        background-color: orangered;
+        margin-left: 10vh;
+    }
+
+    footer .container-fluid {
+        background-color: rgb(16, 16, 55);
+    }
+
+    footer #footer {
+        background-color: rgb(0, 0, 31);
+        color: white;
+    }
+
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    footer ul {
+        list-style-type: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header .navbar-brand {
+        height: 5vh;
+        margin-left: 0%;
+    }
+
+    #font {
+        display: none;
+    }
+
+    header .collapse {
+        margin-left: 0vh;
+
+    }
+
+    header .collapse .nav-link {
+        background-color: rgb(1, 1, 73);
+        color: white;
+    }
+
+    header .collapse #id {
+        border: none;
+        float: left;
+
+    }
+
+    #home {
+        background-image: url("https://www.solartis.com/hubfs/hero%20image%20%281%29-1.png#keepProtocol");
+        height: 60vh;
+        width: 100%;
+    }
+
+    #home .section_1 .row .col-lg-6 {
+        margin-left: 0%;
+        color: white;
+        font-weight: lighter;
+
+    }
+
+    #about .about {
+        margin-top: 10vh;
+        color: gray;
+    }
+
+    #about .images {
+        margin-top: 10vh;
+
+    }
+
+    #about .images p {
+        width: 70%;
+        margin-left: 7vh;
+    }
+
+    #about .company {
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
+
+    #services {
+        background-color: rgb(95, 95, 111);
+    }
+
+    #services .card {
+        height: 60vh;
+        width: 95%;
+    }
+
+    #services .card_1 {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+
+    }
+
+
+    #services .card_1 .hide_1 {
+        display: block;
+    }
+
+    #services .card_1 #div_1 {
+        display: none;
+
+    }
+
+    #services .card_2 {
+        margin-bottom: 5vh;
+
+    }
+
+    #services .card_2 .hide_2 {
+        display: block;
+    }
+
+    #services .card_2 #div_2 {
+        display: none;
+    }
+
+    #services .card-text {
+        font-size: 15px;
+    }
+
+    #choice .col-lg-12 {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        font-size: 25px;
+    }
+
+    #choice .card {
+        height: 60vh;
+        width: 90%;
+        margin-top: 5vh;
+        margin-left: 3vh;
+    }
+
+
+    #choice .card_3 .card .card-text {
+        font-size: 15px;
+    }
+    #choice .card_3 .card img{
+        margin-top: 2vh;
+        margin-left: 10%;
+    }
+
+    #choice .card_3 .card .card-link {
+        color: orangered;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 2vh;
+    }
+
+    #choice .card_3 .card .card-link:hover {
+        text-decoration: underline;
+        cursor: pointer;
+
+    }
+
+    #choice .card_4 .card .card-text {
+        font-size: 15px;
+    }
+    #choice .card_4 .card img{
+        margin-top: 2vh;
+        margin-left: 10%;
+    }
+
+    #choice .card_4 .card .card-link {
+        color: orangered;
+        text-decoration: none;
+        margin-top: 10vh;
+        font-size: 20px;
+        margin-left: 2vh;
+    }
+
+    #choice .card_4 .card .card-link:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    #choice .card_5 .card .card-text {
+        font-size: 15px;
+    }
+    #choice .card_5 .card img{
+        margin-top: 2vh;
+        margin-left: 10%;
+    }
+
+    #choice .card_5 .card .card-link {
+        color: orangered;
+        text-decoration: none;
+        margin-top: 7vh;
+        font-size: 20px;
+        margin-left: 2vh;
+    }
+
+    #choice .card_5 .card .card-link:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    #startup .glide .container {
+        background-color: rgb(1, 1, 42);
+        border-radius: 10px;
+        width: 90%;
+    }
+
+    #startup .glide .container .col-lg-6 img {
+        height: 50vh;
+        width: 100%;
+        margin-left: 3vh;
+    }
+    
+
+    #startup .glide .container .row .glides {
+        margin-top: 5vh;
+    }
+
+    #case_study .container-fluid {
+        margin-top: 10vh;
+        background-color: rgb(71, 141, 141);
+    }
+
+    #help #buttons {
+        color: white;
+        width: 60%;
+        height: 60px;
+        margin-top: 40px;
+        border-color: orangered;
+        background-color: orangered;
+        margin-left: 10vh;
+    }
+
+    footer .container-fluid {
+        background-color: rgb(16, 16, 55);
+    }
+    footer .col-lg-3{
+        width: 100%;
+    }
+    footer #footer {
+        background-color: rgb(0, 0, 31);
+        color: white;
+    }
+    footer #footer .col-lg-12{
+        width: 100%;
+    }
+
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    footer ul {
+        list-style-type: none;
+    }
+}
